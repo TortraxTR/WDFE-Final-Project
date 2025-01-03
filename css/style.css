@@ -1,0 +1,145 @@
+
+
+.offpage{
+    position: absolute;
+    left: -1000px;
+}
+.offpage:focus{
+    position: static;
+}
+
+body{
+    background-color: #222831;
+}
+header {
+    background-color: #00ADB5;
+    border: 0.5rem ridge #393E46;
+    border-bottom: 0.5rem solid #222831;
+    font-family: monospace;
+    color: #EEEEEE;
+}
+
+main{
+    background-color: #393E46;
+}
+
+aside img {
+    width: 100%;
+}
+
+.nav-link {
+    font-family: monospace;
+    color: #F4EDD3;
+    border: 0.25em solid #222831;
+    border-top-width: 0px;
+}
+
+.nav-link:hover{
+    color: #F4EDD3;
+    opacity: 50%;
+}
+
+.active{
+    border: 0.5em double #00ADB5;
+}
+
+article{
+    text-align: justify;
+    color: #EEEEEE;
+}
+
+/* h1{
+    color: #F4EDD3;
+    font-family: monospace;
+} */
+
+
+
+
+
+/* h1{
+    text-align: center;
+    color: #F4EDD3;
+    font-family: monospace;
+}
+
+body{
+    background-color: #4C585B;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: #F4EDD3;
+    padding: 5px;
+    border-width: 10px;
+    border-style: outset;
+    border-color: #F4EDD3;
+    font-family: monospace;
+}
+
+#current_page{
+    border-style: inset;
+    border-width: 5px;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    justify-content: space-evenly;
+    padding: 5px;
+    border: 10px ridge #A5BFCC;
+    text-align: justify;
+    color: #F4EDD3;
+}
+
+img{
+    width: 100%;
+    border: thick solid #F4EDD3;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin: 1%;
+    align-content:space-evenly;
+    column-gap: 1.6%;
+    row-gap: 0.9%;
+}
+
+.gallery img{
+    border-style: double;
+    opacity: 25%;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+.gallery img:nth-child(3n-1){
+    border-style: dashed;
+}
+.gallery img:hover{
+    opacity: 100%;
+}
+
+#about{
+    grid-template-columns: 30% 60%;
+}
+
+#about>img{
+    width: 50%;
+}
+
+footer{
+    display: grid;
+    justify-content: center;
+}
+
+footer a{
+    border-width: 3px;
+} */
