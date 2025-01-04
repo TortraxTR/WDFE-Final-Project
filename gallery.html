@@ -13,17 +13,85 @@
 
 <body>
     <a href="#main_content" class="offpage">Skip to main content</a>
-    <header>
-        <h1>A Collection of Images</h1>
-        <nav id="navigation">
-            <ul>
-                <li><a href="index.html">Posts</a></li>
-                <li><a href="gallery.html" id="current_page">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="main_content">
+
+    <div class="container">
+        <header>
+            <div class="row justify-content-center row-gap-3">
+                <div class="col-10 col-lg-6">
+                    <h1>A Collection of Images</h1>
+                </div>
+            </div>
+        </header>
+
+        <main id="main_content">
+            <div class="row justify-content-around">
+                <div class="col-10 col-lg-1">
+                    <nav id="navigation">
+                        <ul class="nav flex-lg-column justify-content-around">
+                            <li class="nav-item">
+                                <a class="nav-link " href="index.html">Posts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="gallery.html" aria-current="page">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <div class="col-10 col-lg-6">
+                    <div id="bean" class="carousel slide" data-bs-ride="carousel">
+                        
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img
+                                    src="images/bean1.jpeg"
+                                    class="w-100 d-block"
+                                    alt="First slide"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="images/bean2.jpeg"
+                                    class="w-100 d-block"
+                                    alt="Second slide"
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="images/bean3.jpeg"
+                                    class="w-100 d-block"
+                                    alt="Third slide"
+                                />
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#bean"
+                            data-bs-slide="prev"
+                        >
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#bean"
+                            data-bs-slide="next"
+                        >
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    
+    <!-- <main id="main_content">
         <section class="gallery">
             <img src="images/bean1.jpeg"
                 alt="A close-up of a small cat with orange, black and white fur perched beside the sidewalk, looking towards the viewer with an angry expression.">
@@ -38,7 +106,7 @@
             <img src="images/cou2.jpeg"
                 alt="A small cat with orange-on-white fur, sitting on a couch, looking below the camera.">
         </section>
-    </main>
+    </main> -->
     <footer>
         <a href="#navigation">To the top of the page</a>
     </footer>
