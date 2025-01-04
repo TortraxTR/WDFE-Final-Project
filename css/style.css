@@ -14,7 +14,7 @@ body{
 header {
     background-color: #00ADB5;
     border: 0.5rem ridge #393E46;
-    border-bottom: 0.5rem solid #222831;
+
     font-family: monospace;
     color: #EEEEEE;
 }
@@ -31,7 +31,7 @@ aside img {
 .nav-link {
     font-family: monospace;
     color: #F4EDD3;
-    border: 0.1em solid #EEEEEE;
+    border: 0.1em solid #F4EDD3;
     border-width: 0px 0.1em;
 }
 
@@ -54,7 +54,9 @@ article, aside{
     padding-top: 1em;
 }
 
-
+a > img {
+    border: 0.5em solid #222831;
+}
 
 /* h1{
     color: #F4EDD3;
