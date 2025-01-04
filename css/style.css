@@ -31,8 +31,6 @@ aside img {
 .nav-link {
     font-family: monospace;
     color: #F4EDD3;
-    border: 0.25em solid #222831;
-    border-top-width: 0px;
 }
 
 .nav-link:hover{
@@ -41,16 +39,18 @@ aside img {
 }
 
 .active{
-    border: 0.5em double #00ADB5;
+    border-color: #00ADB5;
 }
 
-h2, h3 {
+h1, h2, h3 {
     text-align: center;
 }
-aside, section{
+
+article, aside{
     text-align: justify;
-    padding: 1em;
 }
+
+
 
 /* h1{
     color: #F4EDD3;
