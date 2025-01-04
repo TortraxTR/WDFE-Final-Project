@@ -21,6 +21,7 @@ header {
 
 main{
     background-color: #393E46;
+    color: #EEEEEE;
 }
 
 aside img {
@@ -43,9 +44,12 @@ aside img {
     border: 0.5em double #00ADB5;
 }
 
-article{
+h2, h3 {
+    text-align: center;
+}
+aside, section{
     text-align: justify;
-    color: #EEEEEE;
+    padding: 1em;
 }
 
 /* h1{
