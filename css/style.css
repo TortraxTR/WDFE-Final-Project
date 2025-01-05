@@ -47,9 +47,9 @@ aside img {
     border-color: #00ADB5;
 }
 
-h1, h2, h3 {
+h2, h3 {
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 0.25em
 }
 
 article, aside{
