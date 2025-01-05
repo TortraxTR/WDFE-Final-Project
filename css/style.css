@@ -11,17 +11,19 @@
 body{
     background-color: #222831;
 }
+
 header {
     background-color: #00ADB5;
     border: 0.5rem ridge #393E46;
-
     font-family: monospace;
     color: #EEEEEE;
 }
 
 main{
     background-color: #393E46;
+    border: 0.5rem ridge #393E46;
     color: #EEEEEE;
+    margin-top: 0.5rem;
 }
 
 aside img {
@@ -47,18 +49,19 @@ aside img {
 
 h1, h2, h3 {
     text-align: center;
+    padding-top: 0.5em;
 }
 
 article, aside{
     text-align: justify;
-    padding-top: 1em;
 }
 
 a > img {
     border: 0.5em solid #222831;
 }
 
-.carousel-item{
+.carousel-item > img{
+    border: 0.25em solid #222831;
 }
 
 /* h1{
