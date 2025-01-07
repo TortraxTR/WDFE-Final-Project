@@ -13,16 +13,16 @@ body{
 }
 
 header {
-    background-color: #00ADB5;
+    background-color: #393E46;
     border: 0.5rem ridge #393E46;
     font-family: monospace;
-    color: #EEEEEE;
+    color: #F4EDD3;
 }
 
 main{
     background-color: #393E46;
     border: 0.5rem ridge #393E46;
-    color: #EEEEEE;
+    color: #F4EDD3;
     margin-top: 0.5rem;
 }
 
@@ -33,8 +33,8 @@ aside img {
 .nav-link {
     font-family: monospace;
     color: #F4EDD3;
-    border: 0.1em solid #F4EDD3;
-    border-width: 0px 0.1em;
+    border: 0px solid #F4EDD3;
+    border-left-width: 0.1rem;
 }
 
 .nav-link:hover{
@@ -44,7 +44,7 @@ aside img {
 
 
 .active{
-    border-color: #00ADB5;
+    border-color: #222831;
 }
 
 h2, h3 {
