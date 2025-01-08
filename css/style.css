@@ -1,14 +1,15 @@
-
-
-.offpage{
+.offpage {
     position: absolute;
     left: -1000px;
 }
-.offpage:focus{
+
+.offpage:focus {
     position: static;
 }
 
-body{
+
+
+body {
     background-color: #222831;
 }
 
@@ -19,17 +20,21 @@ header {
     color: #F4EDD3;
 }
 
-main{
+main {
     background-color: #393E46;
     border: 0.5rem ridge #393E46;
     color: #F4EDD3;
-    margin-top: 0.5rem;
+}
+
+footer {
+    background-color: #393E46;
+    border: 0.5rem ridge #393E46;
+    color: #F4EDD3;
 }
 
 img {
     width: 100%;
 }
-
 
 .nav-link {
     font-family: monospace;
@@ -38,29 +43,34 @@ img {
     border-left-width: 0.1rem;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #F4EDD3;
     opacity: 50%;
 }
 
-.nav-item .active{
+.nav-item .active {
     border-color: #222831;
-    opacity: 50%;
 }
 
-h2, h3 {
+h2,
+h3 {
     text-align: center;
     padding-top: 0.25em
 }
 
-article, aside{
+.btn {
+    color: #F4EDD3;
+}
+
+article,
+aside {
     text-align: justify;
 }
 
-a > img {
+a>img {
     border: 0.5em solid #222831;
 }
 
-.carousel-item > img{
+.carousel-item>img {
     border: 0.25em solid #222831;
 }
