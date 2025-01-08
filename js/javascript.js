@@ -1,32 +1,17 @@
-let count = 0;
+const rand_pics = [
+    "https://i.imgur.com/w739u3O.jpg",
+    "https://i.imgur.com/RNQHJIu.jpg",
+    "https://i.imgur.com/GuATJqk.jpg",
+    "https://i.imgur.com/L2tWNeW.jpg",
+    "https://i.imgur.com/oUe3eDJ.jpg"];
+let a = Math.floor(rand_pics.length * Math.random());
 
-function increment() {
-    count++;
-    let messageText = document.querySelector("#message").innerHTML;
-    let countText = document.querySelector("#counter").innerHTML;
-
-    switch (count) {
-        case 5:
-            messageText = "Wow, you clicked five times? That's not really enough to reveal a proper secret but I guess I could change the text.";
-            break;
-        case 10:
-            messageText = "Double or nothing! Now we're getting somewhere. Actually, hang on, give me a second...";
-            break;
-        case 15:
-            messageText = "Keep clicking, I'm sure I'll manage to get this thing working soon enough...";
-            break;
-        case 20:
-            messageText = "Alright! Now you can see how many times you clicked on the button. Surely this will motivate you to click more.";
-            break;
-
+function randomPic() {
+    while (rand_pics[a] == document.querySelector("a[data-lightbox]").getAttribute("href")) {
+        a = Math.floor(rand_pics.length * Math.random());
     }
-
-    if (count >= 20) {
-        countText = "You have clicked on the button for a total of " + count + " times.";
-    }
-
-    console.log(count);
-    document.querySelector("#counter").innerHTML = countText;
-    document.querySelector("#message").innerHTML = messageText;
+    let thumb_pic = rand_pics[a].replace(".jpg", "l.jpg");
+    document.querySelector("a[data-lightbox]").setAttribute("href", rand_pics[a]);
+    document.querySelector("img[src]").setAttribute("src", thumb_pic);
 }
 
